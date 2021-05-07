@@ -3,7 +3,12 @@
   margin: 1%;
   
 }
-
+.roundimg{
+    height:50%;
+    width:50%;
+    border-radius: 50%;
+  
+}
 
 .topnav {
   overflow: hidden;
@@ -94,6 +99,9 @@ h1{
   box-shadow: 0 8px 16px 0 rgba(248, 5, 5, 0.664);
   padding:6%;
  }
+ .card8{
+padding:5%;
+ }
 .btn {
   background-color: #04AA6D;
   border: none;
@@ -113,8 +121,7 @@ h1{
 .css-typing p {
   border-right: .15em solid white;
   font-family: "Courier";
-  margin-top:10%;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color:#04AA6D;
   white-space: nowrap;
   overflow: hidden;
