@@ -1,0 +1,265 @@
+body {
+  background-color:black;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(10, 10, 10);
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.row{
+  background-color: black;
+}
+.card5 {
+  box-shadow: 0 4px 8px 0 #04AA6D;
+  transition: 0.3s;
+  padding: 3%;
+  margin:3%;
+  background-color:rgb(0, 0, 0);
+ 
+  
+}
+.card5:hover {
+  transform: scale(1.5); 
+  
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 #04AA6D;
+  transition: 0.3s;
+  padding: 3%;
+  margin:3%;
+  background-color:rgb(0, 0, 0);
+ 
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(248, 5, 5, 0.664);
+  padding:6%;
+ }
+p{
+  color:white;
+}
+.card h2{
+  color:white;
+}
+h1{
+  color:rgb(255, 255, 255);
+  text-align:center;
+  
+}
+.card h3{
+  color:white;
+}
+.card h4{
+  color:white;
+}
+
+.card2 {
+  box-shadow: 0 4px 8px 0 #04AA6D;
+  transition: 0.3s;
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-right:18%;
+  margin-left: 18%;
+  background-color:rgb(0, 0, 0);
+ 
+  
+}
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(248, 5, 5, 0.664);
+  padding:6%;
+ }
+.btn {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  
+  cursor: pointer;
+  font-size: 3rem;
+  
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(238, 240, 245);
+}
+
+
+.css-typing p {
+  border-right: .15em solid white;
+  font-family: "Courier";
+  margin-top:10%;
+  font-size: 3rem;
+  color:#04AA6D;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 20.3em;
+  -webkit-animation: type 2s steps(30, end);
+  animation: type 2s steps(30, end);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+  width: 16.5em;
+  opacity: 0;
+  -webkit-animation: type2 2s steps(30, end);
+  animation: type2 2s steps(30, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 16.3em;
+  opacity: 0;
+  -webkit-animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  animation: type3 5s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 4s;
+  animation-delay: 4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    border: none;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background:rgb(241, 73, 101);
+  color: white;
+}
+.fa {
+  padding: 1%;
+  font-size: 30%;
+  width: 6%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+footer{
+  background-color: black;
+  padding:5%;
+}
